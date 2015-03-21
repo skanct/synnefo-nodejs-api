@@ -3,7 +3,9 @@ synnefo-nodejs-api
 
 The synnefo-api is a module that allows you to communicate with the [Synnefo APIs](https://www.digitalocean.com/api) from node.js
 
-Synnefo is a complete open source cloud stack written in Python that provides Compute, Network, Image, Volume and Storage services. 
+Synnefo is a complete open source cloud stack written in Python that provides Compute, Network, Image, Volume and Storage services.
+
+[![Build Status](https://travis-ci.org/skanct/synnefo-nodejs-api.svg?branch=travis-ci)](https://travis-ci.org/skanct/synnefo-nodejs-api) 
 
 ## Installation
 
@@ -17,7 +19,7 @@ TBD
 
 All methods follow the [official API documentation](https://www.synnefo.org/docs/synnefo/latest/api-guide.html).
 
-More [detailed documentation](http://skanct.github.io/synnefo-nodejs-api/) generated from the source code is available.
+More [detailed documentation](https://skanct.github.io/synnefo-nodejs-api/) and [test coverage](https://skanct.github.io/synnefo-nodejs-api/lcov-report) generated from the source code is available. 
 
 Convention for callback arguments: `callback(error, data)`
 
