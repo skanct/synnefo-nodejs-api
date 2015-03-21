@@ -1,7 +1,9 @@
 synnefo-nodejs-api
 ==================
 
-The synnefo-api is a module that allows you to communicate with the [Synnefo APIs](https://www.digitalocean.com/api) from node.js
+**DISCLAIMER: This is work in progress. Only a limited set of the synnefo API has been implemented. Try with caution**
+
+The synnefo-nodejs-api is a module that allows you to communicate with the [Synnefo APIs](https://www.digitalocean.com/api) using node.js
 
 Synnefo is a complete open source cloud stack written in Python that provides Compute, Network, Image, Volume and Storage services.
 
