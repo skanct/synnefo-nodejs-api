@@ -1,0 +1,42 @@
+{
+  "name": "synnefo-nodejs-api",
+  "version": "0.1.0",
+  "author": "Christos Kanellopoulos <skanct@gmail.com>",
+  "description": "Synnefo API wrapper",
+  "keywords": [
+    "synnefo",
+    "synnefo-api",
+    "okeanos",
+    "okeanos-api"
+  ],
+  "homepage": "https://github.com/skanct/synnefo-nodejs-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skanct/synnefo-nodejs-api.git"
+  },
+  "main": "./lib/cyclades.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "xtend": "2.x",
+    "request": "2.x"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "should": "latest",
+    "nock": "latest",
+    "istanbul": "latest",
+    "grunt": "~0.4.2",
+    "grunt-jsdoc": "~0.5.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "licenses": [
+  {
+    "type": "MIT",
+    "url": "https://github.com/skanct/synnefo-nodejs-api/blob/master/LICENSE"
+  }
+  ]
+}
