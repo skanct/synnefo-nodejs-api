@@ -53,6 +53,19 @@ flavorListDetail(callback)
 flavorGet(id, callback)
 ```
 
+## How to run the tests
+
+Copy ```test/config-sample.json``` to ```test/config.json``` and run:
+
+```
+npm test
+```
+
+All network connections are mocked using [nock](https://github.com/pgte/nock). If you want to run the tests against an actual installation of synnefo and generate a test coverage report, you have to do the following:
+
+   - edit ```test/config.json``` and add your synnefo token and your cyclades API endpoint
+   - run ```NOCK_RECORD=1 node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -u exports -R spec```
+
 ## Acknowledgments
 
 This module is inspired by the excellent nodejs module for the [digitalocean-api](https://github.com/enzy/digitalocean-api) by Matěj Šimek
